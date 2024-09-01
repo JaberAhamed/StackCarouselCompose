@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.js.translate.context.Namer.kotlin
-
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
     alias(libs.plugins.android.application) apply false
@@ -15,12 +13,6 @@ subprojects {
             target("**/*.kt")
             targetExclude("$buildDir/**/*.kt")
             targetExclude("bin/**/*.kt")
-            ktlint("1.3.0")
-                .customRuleSets(
-                    listOf(
-                        "io.nlopez.compose.rules:ktlint:0.4.4"
-                    )
-                )
             licenseHeaderFile(rootProject.file("spotless/copyright.kt"))
         }
 

@@ -211,7 +211,8 @@ fun <T> StackCarousel(state: CarouselState, items: List<T>, modifier: Modifier =
                             offsetX = offsetX.value,
                             scaleX = scaleX,
                             scaleY = scaleY
-                        ).shadow(
+                        )
+                        .shadow(
                             elevation = 2.8.dp,
                             shape = RoundedCornerShape(size = 12.dp),
                             ambientColor = Color.Black.copy(0.8f),
@@ -232,7 +233,8 @@ fun <T> StackCarousel(state: CarouselState, items: List<T>, modifier: Modifier =
                             alpha = nextAlpha,
                             translationY = if (isEnableAnimation) translationYa.dp.toPx() else translationY,
                             shadowElevation = 20.5f
-                        ).shadow(
+                        )
+                        .shadow(
                             elevation = 2.8.dp,
                             shape = RoundedCornerShape(size = 12.dp),
                             ambientColor = Color.Black.copy(0.8f),
@@ -253,7 +255,8 @@ fun <T> StackCarousel(state: CarouselState, items: List<T>, modifier: Modifier =
                             alpha = alpha,
                             translationY = if (offsetX.value == 0f) translationYa.dp.toPx() + afterNextPadding else translationY,
                             shadowElevation = 20.5f
-                        ).shadow(
+                        )
+                        .shadow(
                             elevation = 2.8.dp,
                             shape = RoundedCornerShape(size = 12.dp),
                             ambientColor = Color.Black.copy(0.8f),

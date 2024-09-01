@@ -29,6 +29,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.PreviewLightDark
 import androidx.compose.ui.unit.dp
 import com.jaber.jbastackcarousel.StackCarousel
+import com.jaber.jbastackcarousel.StackType
 import com.jaber.jbastackcarousel.rememberCarouselState
 import com.jaber.stackcarousel.ui.theme.StackCarouselTheme
 
@@ -72,6 +73,8 @@ fun StackCarouselSample(modifier: Modifier = Modifier) {
                 end = 30.dp
             ),
             state = carouselState,
+            stackType = StackType.Bottom,
+            isEnableAnimation = false,
             items = images
         ) { page: Int ->
 
