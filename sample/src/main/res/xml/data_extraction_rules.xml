@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2024 Jaber Bin Ahamed. All rights reserved.
+  ~
+  ~ ========================================================================
+  ~
+  ~ Project: StackCarousel
+  ~ Developed by:  Jaber Bin Ahamed
+  ~
+  ~ Source:
+-->
+
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- TODO: Use <include> and <exclude> to control what is backed up.
+        <include .../>
+        <exclude .../>
+        -->
+    </cloud-backup>
+    <!--
+    <device-transfer>
+        <include .../>
+        <exclude .../>
+    </device-transfer>
+    -->
+</data-extraction-rules>
