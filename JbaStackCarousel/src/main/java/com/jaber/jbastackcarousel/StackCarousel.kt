@@ -39,7 +39,6 @@ import com.jaber.jbastackcarousel.utils.toPx
 import kotlin.math.absoluteValue
 import kotlinx.coroutines.launch
 
-@Suppress("ktlint:standard:function-naming")
 /**
  * A composable function that creates a stack-based carousel, useful for implementing swipe able card stacks or similar UI patterns in Jetpack Compose.
  *
@@ -52,8 +51,17 @@ import kotlinx.coroutines.launch
  * @param isEnableAnimation A Boolean flag to enable or disable animations during item transitions. Defaults to true, meaning animations are enabled by default.
  * @param content A composable lambda that defines how each item should be displayed. It receives the current item of type [T] as a parameter.
  */
+
 @Composable
-fun <T> StackCarousel(state: CarouselState, items: List<T>, modifier: Modifier = Modifier, swipeType: SwipeType = SwipeType.Default, stackType: StackType = StackType.Bottom, isEnableAnimation: Boolean = true, content: @Composable (page: T) -> Unit) {
+fun <T> StackCarousel(
+    state: CarouselState,
+    items: List<T>,
+    modifier: Modifier = Modifier,
+    swipeType: SwipeType = SwipeType.Default,
+    stackType: StackType = StackType.Bottom,
+    isEnableAnimation: Boolean = true,
+    content: @Composable (page: T) -> Unit
+) {
     val configuration = LocalConfiguration.current
     val screenWidth = configuration.screenWidthDp.dp
     val images =

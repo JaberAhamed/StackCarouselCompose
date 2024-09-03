@@ -73,8 +73,8 @@ fun StackCarouselSample(modifier: Modifier = Modifier) {
                 end = 30.dp
             ),
             state = carouselState,
-            stackType = StackType.Bottom,
-            isEnableAnimation = false,
+            isEnableAnimation = true,
+            stackType = StackType.Top,
             items = images
         ) { page: Int ->
 
