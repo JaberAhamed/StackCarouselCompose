@@ -98,8 +98,6 @@ StackCarousel(
 ```
 
 ## Scale StackCarousel
-
-## Preview of Scale StackCarousel
 It's a scale **StackCarousel** there is animation enable is true and also able to scale effect when
 swipe the content.
 
@@ -143,8 +141,6 @@ StackCarousel(
 It's a rotate **StackCarousel** there is animation enable is true and also able to rotate effect
 when swipe the content.
 
-## Preview of Rotate StackCarousel
-
 <p align="center">
 <img src="assets/rotate.gif" width="280"/>
 </p>
@@ -186,7 +182,6 @@ StackCarousel(
 It's a top **StackCarousel** there is animation enable is true and also able to top effect when
 swipe the content.
 
-## Preview Top StackCarousel
 <p align="center">
 <img src="assets/top.gif" width="280"/>
 </p>
