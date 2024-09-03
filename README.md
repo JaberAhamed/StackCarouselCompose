@@ -53,7 +53,7 @@ Add the following to your **root** `build.gradle` file:
 ```gradle
 allprojects {
 	repositories {
-		maven { url 'https://jitpack.io' }
+		maven { url = 'https://jitpack.io' }
 	}
 }
 ```
@@ -65,7 +65,6 @@ allprojects {
 ## Usage
 
 ## Static Carousel
-
 It's a static carousel there is not animation and not swipe effect.
 
 ```
@@ -101,13 +100,12 @@ StackCarousel(
 ## Scale StackCarousel
 
 ## Preview of Scale StackCarousel
+It's a scale **StackCarousel** there is animation enable is true and also able to scale effect when
+swipe the content.
 
 <p align="center">
 <img src="assets/scale.gif" width="280"/>
 </p>
-
-It's a scale **StackCarousel** there is animation enable is true and also able to scale effect when
-swipe the content.
 
 ```
 // list of images
@@ -142,6 +140,8 @@ StackCarousel(
 ```
 
 ## Rotate StackCarousel
+It's a rotate **StackCarousel** there is animation enable is true and also able to rotate effect
+when swipe the content.
 
 ## Preview of Rotate StackCarousel
 
@@ -149,8 +149,6 @@ StackCarousel(
 <img src="assets/rotate.gif" width="280"/>
 </p>
 
-It's a rotate **StackCarousel** there is animation enable is true and also able to rotate effect
-when swipe the content.
 
 ```
 // list of images
@@ -185,15 +183,15 @@ StackCarousel(
 ```
 
 ## Top StackCarousel
+It's a top **StackCarousel** there is animation enable is true and also able to top effect when
+swipe the content.
 
-## Top StackCarousel
-
+## Preview Top StackCarousel
 <p align="center">
 <img src="assets/top.gif" width="280"/>
 </p>
 
-It's a top **StackCarousel** there is animation enable is true and also able to top effect when
-swipe the content.
+
 
 ```
 // list of images
